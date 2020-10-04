@@ -33,6 +33,17 @@ see `eslint-config-sbs/base`.
 
 - Add `"extends": "sbs"` to your .eslintrc.
 
+**With Typescript:**
+
+```json
+{
+  "extends": ["sbs", "sbs/typescript"],
+  "parserOptions": {
+    "project": ["./tsconfig.json", "./packages/*/tsconfig.json"]
+  }
+}
+```
+
 ### eslint-config-sbs/base
 
 Our default export contains all of our ESLint rules, including ECMAScript 6+ and FlowJS.
@@ -40,6 +51,17 @@ Our default export contains all of our ESLint rules, including ECMAScript 6+ and
 It requires `eslint`, `eslint-config-prettier` and `eslint-plugin-import`.
 
 - Add `"extends": "sbs/base"` to your .eslintrc
+
+**With Typescript:**
+
+```json
+{
+  "extends": ["sbs/base", "sbs/typescript"],
+  "parserOptions": {
+    "project": ["./tsconfig.json", "./packages/*/tsconfig.json"]
+  }
+}
+```
 
 ### eslint-config-sbs/script
 

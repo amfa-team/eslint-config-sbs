@@ -12,6 +12,7 @@ module.exports = {
       "./rules/eslint-comments",
     ].map(require.resolve),
     "prettier",
+    "prettier/@typescript-eslint",
   ],
   parserOptions: {
     ecmaVersion: 2020,
@@ -26,9 +27,9 @@ module.exports = {
       files: [
         "test/**", // tape, common npm pattern
         "tests/**", // also common npm pattern
-        "test.{js,jsx}", // repos with a single test file
-        "test-*.{js,jsx}", // repos with multiple top-level test files
-        "**/*{.,_}{test,spec,stories,fixture}.{js,jsx}", // tests where the extension or filename suffix denotes that it is a test
+        "test.{js,jsx,ts,tsx}", // repos with a single test file
+        "test-*.{js,jsx,ts,tsx}", // repos with multiple top-level test files
+        "**/*{.,_}{test,spec,stories,fixture}.{js,jsx,ts,tsx}", // tests where the extension or filename suffix denotes that it is a test
       ],
       env: {
         jest: true,
