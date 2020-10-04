@@ -1,0 +1,77 @@
+{
+  "name": "eslint-config-sbs",
+  "version": "0.0.1",
+  "description": "Side By Side JS ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "prettier:fix": "prettier --write .",
+    "prettier:check": "prettier --check .",
+    "lint": "eslint --report-unused-disable-directives ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amfa-team/eslint-config-sbs"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "config",
+    "sidebyside",
+    "side-by-side",
+    "sbs",
+    "javascript",
+    "styleguide"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/amfa-team/eslint-config-sbs/issues"
+  },
+  "homepage": "https://github.com/amfa-team/eslint-config-sbs",
+  "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.2",
+    "eslint-plugin-react-hooks": "^4.1.2",
+    "husky": "^4.3.0",
+    "lint-staged": "^10.4.0",
+    "prettier": "^2.1.2",
+    "semantic-release": "^17.1.2"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.21.2",
+    "eslint-plugin-react-hooks": "^4.1.2"
+  },
+  "engines": {
+    "node": ">= 12"
+  },
+  "dependencies": {
+    "confusing-browser-globals": "^1.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "commit-msg": "[[ -n $HUSKY_BYPASS ]] || commitlint --config ./config/commitlint.config.js -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "lint-staged": {
+    "*.{md,json}": [
+      "prettier --write"
+    ],
+    "*.{js}": [
+      "eslint --report-unused-disable-directives",
+      "prettier --write"
+    ]
+  }
+}
