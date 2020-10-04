@@ -10,10 +10,10 @@ module.exports = {
   settings: {
     "import/resolver": {
       node: {
-        extensions: [".mjs", ".js", ".json"],
+        extensions: [".mjs", ".js", ".json", ".ts", ".tsx"],
       },
     },
-    "import/extensions": [".js", ".mjs", ".jsx"],
+    "import/extensions": [".js", ".mjs", ".jsx", ".ts", ".tsx"],
     "import/core-modules": [],
     "import/ignore": [
       "node_modules",
@@ -69,9 +69,9 @@ module.exports = {
           "spec/**", // mocha, rspec-like pattern
           "**/__tests__/**", // jest pattern
           "**/__mocks__/**", // jest pattern
-          "test.{js,jsx}", // repos with a single test file
-          "test-*.{js,jsx}", // repos with multiple top-level test files
-          "**/*{.,_}{test,spec,stories,bench,fixture}.{js,jsx}", // tests where the extension or filename suffix denotes that it is a test
+          "test.{js,jsx,ts,tsx}", // repos with a single test file
+          "test-*.{js,jsx,ts,tsx}", // repos with multiple top-level test files
+          "**/*{.,_}{test,spec,stories,bench,fixture}.{js,jsx,ts,tsx}", // tests where the extension or filename suffix denotes that it is a test
           "**/jest.config.js", // jest config
           "**/jest.setup.js", // jest setup
           "**/vue.config.js", // vue-cli config
@@ -131,6 +131,8 @@ module.exports = {
         js: "never",
         mjs: "never",
         jsx: "never",
+        ts: "never",
+        tsx: "never",
       },
     ],
 
@@ -220,13 +222,13 @@ module.exports = {
 
     // This rule enforces that all exports are declared at the bottom of the file.
     // https://github.com/benmosher/eslint-plugin-import/blob/98acd6afd04dcb6920b81330114e146dc8532ea4/docs/rules/exports-last.md
-    "import/exports-last": "error",
+    "import/exports-last": "off",
 
     // Reports when named exports are not grouped together in a single export declaration
     // or when multiple assignments to CommonJS module.exports or exports object are present
     // in a single file.
     // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/group-exports.md
-    "import/group-exports": "error",
+    "import/group-exports": "off",
 
     // forbid default exports. this is a terrible rule, do not use it.
     // https://github.com/benmosher/eslint-plugin-import/blob/44a038c06487964394b1e15b64f3bd34e5d40cde/docs/rules/no-default-export.md
