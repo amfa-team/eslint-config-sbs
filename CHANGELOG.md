@@ -1,3 +1,10 @@
+# [1.0.0-beta.3](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-10-04)
+
+
+### Bug Fixes
+
+* add missing peer dependencies ([cbed80f](https://github.com/amfa-team/eslint-config-sbs/commit/cbed80f60b53798e5a517f7de93f426f42042c4c))
+
 # [1.0.0-beta.2](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2020-10-04)
 
 
