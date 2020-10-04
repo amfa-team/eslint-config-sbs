@@ -35,6 +35,8 @@ see `eslint-config-sbs/base`.
 
 **With Typescript:**
 
+Install `@typescript-eslint/eslint-plugin`, `@typescript-eslint/parser` and `typescript`
+
 ```json
 {
   "extends": ["sbs", "sbs/typescript"],
@@ -53,6 +55,8 @@ It requires `eslint`, `eslint-config-prettier` and `eslint-plugin-import`.
 - Add `"extends": "sbs/base"` to your .eslintrc
 
 **With Typescript:**
+
+Install `@typescript-eslint/eslint-plugin`, `@typescript-eslint/parser` and `typescript`
 
 ```json
 {
