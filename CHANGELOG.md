@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2020-10-04)
+
+
+### Features
+
+* add typescript support ([cfbeb42](https://github.com/amfa-team/eslint-config-sbs/commit/cfbeb42d88b327129427d34ac4943386cf85ee11))
+
 # 1.0.0-beta.1 (2020-10-04)
 
 
