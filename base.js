@@ -1,5 +1,6 @@
 module.exports = {
   extends: [
+    ...[
     "./rules/best-practices",
     "./rules/errors",
     "./rules/node",
@@ -9,8 +10,9 @@ module.exports = {
     "./rules/imports",
     "./rules/strict",
     "./rules/eslint-comments",
-    "prettier",
   ].map(require.resolve),
+  "prettier",
+  ],
   parserOptions: {
     ecmaVersion: 2020,
     sourceType: "module",
