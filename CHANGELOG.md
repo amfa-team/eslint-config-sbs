@@ -1,3 +1,15 @@
+# [1.0.0-beta.5](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2020-10-05)
+
+
+### Bug Fixes
+
+* add missing compat plugin ([124d31d](https://github.com/amfa-team/eslint-config-sbs/commit/124d31d1ce3eec84b6eb17e0186f603d31c58ce1))
+
+
+### Features
+
+* add eslint-plugin-compat ([2c63667](https://github.com/amfa-team/eslint-config-sbs/commit/2c63667f52756313334f54ca2c0959860cba5a9a))
+
 # [1.0.0-beta.4](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-10-05)
 
 
