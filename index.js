@@ -9,9 +9,12 @@ module.exports = {
     "prettier",
     "prettier/react",
   ],
+  plugins: ["compat"],
   env: {
     browser: true,
     "shared-node-browser": true,
   },
-  rules: {},
+  rules: {
+    "compat/compat": "error",
+  },
 };
