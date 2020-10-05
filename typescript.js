@@ -53,7 +53,7 @@ module.exports = {
         // "@typescript-eslint/no-duplicate-imports": ["error"],
         "no-empty-function": "off",
         "@typescript-eslint/no-empty-function": ["error"],
-        "@typescript-eslint/explicit-module-boundary-types": ["error"],
+        "@typescript-eslint/explicit-module-boundary-types": ["off"],
         // note you must disable the base rule as it can report incorrect errors
         "no-implied-eval": "off",
         "@typescript-eslint/no-implied-eval": ["error"],
