@@ -1,3 +1,11 @@
+# [1.0.0-beta.4](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.3...v1.0.0-beta.4) (2020-10-05)
+
+
+### Features
+
+* allow import/no-unassigned-import css files ([87f4e59](https://github.com/amfa-team/eslint-config-sbs/commit/87f4e5992bfc3ac06f402631d0d088935941e2da))
+* disable @typescript-eslint/explicit-module-boundary-types ([34f045d](https://github.com/amfa-team/eslint-config-sbs/commit/34f045d819fe0d628033a65c0224af85dca095e1))
+
 # [1.0.0-beta.3](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.2...v1.0.0-beta.3) (2020-10-04)
 
 
