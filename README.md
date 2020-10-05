@@ -28,10 +28,12 @@ We export two ESLint configurations for your usage.
 Our default export contains all of our ESLint rules, including ECMAScript 6+, FlowJS and React.
 
 It requires `eslint`, `eslint-plugin-import`, `eslint-plugin-react`, `eslint-plugin-react-hooks`,
-`eslint-plugin-jsx-a11y`, `eslint-config-prettier` and `eslint-plugin-eslint-comments`. If you don't need React,
-see `eslint-config-sbs/base`.
+`eslint-plugin-jsx-a11y`, `eslint-config-prettier` `eslint-plugin-compat` and
+`eslint-plugin-eslint-comments`. If you don't need React, see `eslint-config-sbs/base`.
 
 - Add `"extends": "sbs"` to your .eslintrc.
+
+For browser compatibility settings see https://github.com/amilajack/eslint-plugin-compat#3-configure-target-browsers
 
 **With Typescript:**
 

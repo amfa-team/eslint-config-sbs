@@ -13,5 +13,7 @@ module.exports = {
     browser: true,
     "shared-node-browser": true,
   },
-  rules: {},
+  rules: {
+    "compat/compat": "error",
+  },
 };
