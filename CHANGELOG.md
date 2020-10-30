@@ -1,3 +1,10 @@
+# [1.0.0-beta.6](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2020-10-30)
+
+
+### Bug Fixes
+
+* loose rules ([3e36664](https://github.com/amfa-team/eslint-config-sbs/commit/3e36664099ef4f73475c77e47a49430572bd286d))
+
 # [1.0.0-beta.5](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.4...v1.0.0-beta.5) (2020-10-05)
 
 
