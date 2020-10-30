@@ -1,3 +1,23 @@
+# 1.0.0 (2020-10-30)
+
+
+### Bug Fixes
+
+* add missing compat plugin ([124d31d](https://github.com/amfa-team/eslint-config-sbs/commit/124d31d1ce3eec84b6eb17e0186f603d31c58ce1))
+* add missing peer dependencies ([cbed80f](https://github.com/amfa-team/eslint-config-sbs/commit/cbed80f60b53798e5a517f7de93f426f42042c4c))
+* eslint config ([0c5ac3f](https://github.com/amfa-team/eslint-config-sbs/commit/0c5ac3fdc5e23370b08b6a3543b5e490a17d39bc))
+* loose rules ([3e36664](https://github.com/amfa-team/eslint-config-sbs/commit/3e36664099ef4f73475c77e47a49430572bd286d))
+* prettier ([00450b4](https://github.com/amfa-team/eslint-config-sbs/commit/00450b4d0ebc9371c028e9d8e868f12e6a2f9c35))
+
+
+### Features
+
+* add eslint-plugin-compat ([2c63667](https://github.com/amfa-team/eslint-config-sbs/commit/2c63667f52756313334f54ca2c0959860cba5a9a))
+* add typescript support ([cfbeb42](https://github.com/amfa-team/eslint-config-sbs/commit/cfbeb42d88b327129427d34ac4943386cf85ee11))
+* allow import/no-unassigned-import css files ([87f4e59](https://github.com/amfa-team/eslint-config-sbs/commit/87f4e5992bfc3ac06f402631d0d088935941e2da))
+* disable @typescript-eslint/explicit-module-boundary-types ([34f045d](https://github.com/amfa-team/eslint-config-sbs/commit/34f045d819fe0d628033a65c0224af85dca095e1))
+* initial version ([52c3f7d](https://github.com/amfa-team/eslint-config-sbs/commit/52c3f7d677dbafcf595678685f64b1369fa2d70b))
+
 # [1.0.0-beta.6](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2020-10-30)
 
 
