@@ -14,7 +14,7 @@ module.exports = {
     "@typescript-eslint/no-floating-promises": "error",
     "@typescript-eslint/no-for-in-array": "error",
     "@typescript-eslint/no-implicit-any-catch": "off",
-    "@typescript-eslint/no-invalid-void-type": "error",
+    "@typescript-eslint/no-invalid-void-type": "off",
     "@typescript-eslint/no-misused-new": "error",
     "@typescript-eslint/no-misused-promises": "error",
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
