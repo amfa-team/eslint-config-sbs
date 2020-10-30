@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0...v1.0.1) (2020-10-30)
+
+
+### Bug Fixes
+
+* pre-release channel ([a27e689](https://github.com/amfa-team/eslint-config-sbs/commit/a27e6897f8828570b4e66b8296cef4274a6c5090))
+* react config format ([ddbcb2f](https://github.com/amfa-team/eslint-config-sbs/commit/ddbcb2fd480cda99c4c574a30e68621ac8550ca0))
+
 ## [1.0.1-develop.1](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0...v1.0.1-develop.1) (2020-10-30)
 
 
