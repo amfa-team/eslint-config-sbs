@@ -1,3 +1,10 @@
+# [1.0.0-develop.1](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.7...v1.0.0-develop.1) (2020-10-30)
+
+
+### Bug Fixes
+
+* pre-release channel ([a27e689](https://github.com/amfa-team/eslint-config-sbs/commit/a27e6897f8828570b4e66b8296cef4274a6c5090))
+
 # [1.0.0-beta.7](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2020-10-30)
 
 
