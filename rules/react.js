@@ -480,12 +480,12 @@ module.exports = {
     "react/prefer-read-only-props": "error",
   },
 
-  overrides: {
+  overrides: [{
     files: ["**.stories.tsx"],
     rules: {
       "react/function-component-definition": "off",
     },
-  },
+  }],
 
   settings: {
     "import/resolver": {
