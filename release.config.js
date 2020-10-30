@@ -1,5 +1,5 @@
 module.exports = {
-  branches: ["master", { name: "develop", prerelease: "beta" }],
+  branches: ["master", { name: "develop", prerelease: true }],
   repositoryUrl: "https://github.com/amfa-team/eslint-config-sbs.git",
   plugins: [
     "@semantic-release/commit-analyzer",
