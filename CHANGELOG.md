@@ -1,3 +1,10 @@
+# [1.0.0-beta.7](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.6...v1.0.0-beta.7) (2020-10-30)
+
+
+### Bug Fixes
+
+* react config format ([ddbcb2f](https://github.com/amfa-team/eslint-config-sbs/commit/ddbcb2fd480cda99c4c574a30e68621ac8550ca0))
+
 # [1.0.0-beta.6](https://github.com/amfa-team/eslint-config-sbs/compare/v1.0.0-beta.5...v1.0.0-beta.6) (2020-10-30)
 
 
